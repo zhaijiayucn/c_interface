@@ -29,5 +29,5 @@ make_exe:
 
 clean:
 	make -C $(SRCDIR) clean
-	-rm $(LIBDIR)/$(LIBOBJ)
+	-rm $(LIBDIR)/*
 	-rm $(PROJECT)
