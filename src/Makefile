@@ -1,8 +1,7 @@
 
 
 
-SRC = $(wildcard *.c)
-OBJ = $(patsubst %.c, %.o, $(SRC))
+OBJ = $(patsubst %.c, %.o, $(wildcard *.c))
 LIB = libc_interface.a
 
 .PHONY: all move
