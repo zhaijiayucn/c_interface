@@ -13,5 +13,6 @@ int main(void)
 	printf("Arith_mod: %d\n", Arith_mod(x, y));
 	printf("Arith_ceiling: %d\n", Arith_ceiling(x, y));
 	printf("Arith_floor: %d\n", Arith_floor(x, y));
+	printf("Hello world\n");
 	return 0;
 }	
